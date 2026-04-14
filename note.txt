@@ -16,3 +16,6 @@ git pull origin main - pulls the lattest chnages from the main branch
 git pull origin dev - pulls the lattest chnages from the dev branch
 
 git push origin feature/footer -- specifies the branch to push to
+
+pull request -- tell ur teams the changes you made in your code
+in ur branch so that they can merge

@@ -14,3 +14,5 @@ git branch -- shows us all the branch we r have in the project
 
 git pull origin main - pulls the lattest chnages from the main branch
 git pull origin dev - pulls the lattest chnages from the dev branch
+
+git push origin feature/footer -- specifies the branch to push to

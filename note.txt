@@ -1,0 +1,11 @@
+git and github
+
+git pull origin main - pulls the lattest chnages from the main branch
+git pull origin dev - pulls the lattest chnages from the dev branch
+
+git branch dev  - creates a branch called dev
+git branch feature/contact-form  - creates a branch called feature/contact-form
+
+git checkout dev - navigates to the branch
+
+git checkout -b dev  - creates and navigates inside the branch once

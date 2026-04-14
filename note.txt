@@ -19,3 +19,32 @@ git push origin feature/footer -- specifies the branch to push to
 
 pull request -- tell ur teams the changes you made in your code
 in ur branch so that they can merge
+
+ git branch -d feature/footer -- deletes a branch after merged
+
+ NB: to add collaborators -- 
+ 1. click on settings on that repo
+ 2. click collaborators on left
+ 3. search the person name and click invites
+
+ WORKFLOW
+ 1. create a project add codes and push to main as a team lead
+ 2. or you are added as a collaborator to a repo
+ 3. run git branch to know all branches (git pull)
+ 4. git branch feature/footer to create your branch
+ 5. git checkout feature/footer to navigate into it
+ 6. you now have a copy of the main code, modify and add features
+ 7. git add ., commit
+ 8. git push origin feature/footer
+ 9. in github the branch will shows
+ 10. click compare and send pull request
+ 11. add title and description and send
+ TEAM LEAD GETS THE PR
+ 1. click file changes to see what he code
+ 2. click conversation to return
+ 3. click merge and delete the branch
+ 4. click code when done
+ WHEN DONE
+ 1. return to vs code
+ 2. git checkout main to return
+ 3. git pull to add lattest changes

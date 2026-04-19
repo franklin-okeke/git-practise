@@ -29,10 +29,13 @@ in ur branch so that they can merge
 
  WORKFLOW
  1. create a project add codes and push to main as a team lead
- 2. or you are added as a collaborator to a repo
- 3. run git branch to know all branches (git pull)
+ 2. or you are added as a collaborator to a repo(clone the repo)
+ 3. run git branch to know all branches (git pull to be updated)
+ NB: if u r asked to work from another branch navigate to that branch
+ run git pull to be updated then create a branch to make a copy
  4. git branch feature/footer to create your branch
  5. git checkout feature/footer to navigate into it
+ NB: run git checkout -b feature/footer to create and navigete once
  6. you now have a copy of the main code, modify and add features
  7. git add ., commit
  8. git push origin feature/footer
@@ -48,3 +51,4 @@ in ur branch so that they can merge
  1. return to vs code
  2. git checkout main to return
  3. git pull to add lattest changes
+ 4. git branch -D feature/footer  to remove the branch
